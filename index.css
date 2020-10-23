@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    font-family: -apple-system, Helvetica, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    background-color: white;
+}
+
+.app-container {
+    width: 50%;
+    min-width: 600px;
+    max-width: 800px;
+    margin: 0.5rem auto;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0)70%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70%);
+    border-radius: 20px;
+    border: 10px solid rgba(48, 36, 97, 0.822);
+    padding: 20px;
+    filter: drop-shadow(20px 20px .5rem rgb(111, 121, 136));
+}
+
+.greetings-container {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.input-container {
+    margin: 0 auto;
+    position: relative;
+}
+
+.greetings {
+    font-size: 4rem;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+.greetings-message{
+    font-size: 2rem;
+    margin: 10px auto;
+    color: rgba(0, 110, 255, 0.514);
+}
+
+.greetings span {
+    background: linear-gradient(to bottom, rgba(255, 97, 97, 0.58), rgba(0, 110, 255, 0.514));
+    padding: .25em;
+    border-radius: 1px 1px 10px 10px;
+    filter: drop-shadow(0 10px .5rem rgb(0, 42, 104));
+    text-shadow: 0px 4px 8px black;
+}
+
+#title {
+    size: 40;
+}
+
+#diary-entry {
+    position: relative;
+    min-height: 500px;
+    padding: 10px 20px;
+    /* border: 1px red solid; */
+    min-width: 500px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#diary-entry input {
+    font-size: 1.5rem;
+    text-align: left;
+    border: none;
+    padding: 10px;
+    display: block;
+    margin: 20px auto 4px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: block;
+    min-width: 200px;
+    max-width: 300px;
+    background-color: rgb(50, 50, 87);
+}
+
+#diary-entry input::placeholder {
+    color: white;
+}
+
+textarea#message-box {
+    display: block;
+    margin: 32px auto;
+    border: none;
+    background-color: rgb(50, 50, 87);
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.125rem;
+    font-family: Helvetica, Helvetica, 'Helvetica Neue', sans-serif;
+    font-kerning: auto;
+    line-height: 1.5rem;
+}
+
+textarea#message-box::placeholder {
+    color: white;
+
+}
+
+textarea#message-box:focus{
+    border: none;
+}
+
+#display-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    /* border: 1px solid blue; */
+    max-width: 800px;
+    min-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+.selection-list{
+    padding: 50px;
+}
+.selection-list>li{
+    margin: 20px;
+}
+.selection-list,
+.display-area {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: rgba(83, 83, 83, 0.466);
+}
+
+#submit{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(50, 50, 87);
+    border-radius: 100px;
+    color: white;
+    font-size: 1.25rem;
+    margin-top: 20px;
+    position: relative;
+    left: 400px;
+    right: 100px;
+    filter: drop-shadow(0px 2px .25rem rgba(0, 0, 0, 0.582));
+}

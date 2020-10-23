@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>webiary.app</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body class="container" id="body">
+    <section class="greetings-container">
+        <h1 class="greetings"><span>Webiary.app</span></h1>
+        <p class="greetings-message">Welcome, James</p>
+    </section>
+    <main id="app-container" class="app-container">
+        
+        <section id="input-container">
+            <form id="diary-entry" action="#" method="#">
+
+                <label for="title">
+                    <input type="text" name="titleInput" id="title" placeholder="Title" size="50" maxlength="80"required></input>
+                </label>
+
+                <label for="message-box">
+                    <textarea id="message-box" name="messages" placeholder="Enter your ideas here..."cols="40" rows="10" required></textarea>
+                </label>
+                <button id="submit">Save</button>
+                <!-- <input type="submit" name="submit" value="Submit"> -->
+            </form>
+        </section>
+        <section id="display-container">
+            <div class="selection-list">UL</div>
+            <div class="display-area">MO</div>
+        </section>
+    </main>
+    <!-- <script src="index.js" type="text/javascript" rel="script"></script> -->
+</body>
+
+</html>
