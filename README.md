@@ -5,4 +5,4 @@ A Web Diary Application based on HTML CSS and JS(ES5+)
 https://iamserda.github.io/webdiaryapp
 
 
-#Unfinished...obviously.
+# Unfinished...obviously.
