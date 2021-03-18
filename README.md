@@ -1,4 +1,4 @@
-# Webdiary.app
+# Webdiary.app { WIP }
 
 ## What is it?
 A browser-based diary.
