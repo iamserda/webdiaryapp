@@ -4,7 +4,7 @@
 A browser-based diary.
 
 ## Where is the Link
-<a href="https://iamserda.github.io/webdiaryapp/" target="_blank">Snake</a>
+<a href="https://iamserda.github.io/webdiaryapp/" target="_blank">Web Diary App</a>
 
 
 Questions, concerns, emotional outbursts? Reach out!
